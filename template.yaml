@@ -7,7 +7,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: target/sign-up-1.0-SNAPSHOT.jar
-      Handler: com.carwash.lambda.PreSignUpFunction::handleRequest
+      Handler: com.carwash.lambda.PostSignUpFunction::handleRequest
       Runtime: java11
       Description: Java function
       MemorySize: 128
